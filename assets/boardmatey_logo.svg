@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <!-- Background (transparent) -->
+  
+  <!-- Domino/Game piece icon -->
+  <g transform="translate(80, 120)">
+    <!-- Outer rounded rectangle -->
+    <rect x="0" y="0" width="160" height="160" rx="20" ry="20" fill="none" stroke="black" stroke-width="8"/>
+    
+    <!-- Vertical divider line -->
+    <line x1="80" y1="8" x2="80" y2="152" stroke="black" stroke-width="4"/>
+    
+    <!-- Top left dot -->
+    <circle cx="40" cy="40" r="12" fill="black"/>
+    
+    <!-- Bottom left dot -->
+    <circle cx="40" cy="120" r="12" fill="black"/>
+    
+    <!-- Bottom right dot -->
+    <circle cx="120" cy="120" r="12" fill="black"/>
+    
+    <!-- Top right section is empty (no dot) -->
+  </g>
+  
+  <!-- BoardMatey text -->
+  <text x="280" y="220" font-family="Arial, sans-serif" font-size="88" font-weight="bold" fill="black">BoardMatey</text>
+</svg>
